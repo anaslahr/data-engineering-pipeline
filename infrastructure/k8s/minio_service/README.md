@@ -105,3 +105,4 @@ mc ls local-minio
 - Secret Key: `minioadmin`
 
 Note: For production use, change default credentials and implement proper security measures.
+Also if you don't forward the ports for local use you can't rech you minio bucket
