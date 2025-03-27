@@ -33,7 +33,7 @@ Using **Minikube or Kubernetes**
 ![alt text](docs/image.png)
 
 
-# The ETL Some code you can create
+# The ETL : Some code you can create
 
 - Ingest Data from the S3 buckets
 - Ingest Data from the Postgres Database
