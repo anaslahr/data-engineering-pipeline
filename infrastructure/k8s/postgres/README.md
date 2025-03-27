@@ -12,7 +12,9 @@ This guide explains how to deploy PostgreSQL on Minikube and populate it with sa
 
 1. Start Minikube if not already running:
 ```bash
-minikube startkubectl apply -f namespace.yaml
+minikube start
+
+kubectl apply -f namespace.yaml
 
 kubectl apply -f configmap.yaml
 kubectl apply -f secret.yaml
