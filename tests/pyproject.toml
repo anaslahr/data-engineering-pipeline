@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "etl-services-tests"
+version = "0.1.0"
+description = "Integration tests for ETL services"
+authors = ["Your Name <your.email@example.com>"]
+packages = [{include = "utils"}, {include = "services"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.26.137"
+pandas = "^2.1.4"  # Updated to latest stable version
+psycopg2-binary = "^2.9.5"
+pytest = "^7.3.1"
+python-dotenv = "^1.0.0"
+minio = "^7.2.15"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
